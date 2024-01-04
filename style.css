@@ -1,0 +1,26 @@
+
+.div{
+    width: 150px;
+    height: 150px;
+border: 6px solid;
+border-color: white transparent white transparent;
+border-radius: 50%;
+ animation: spinner infinite 1s linear;
+}
+
+.body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@keyframes spinner{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
